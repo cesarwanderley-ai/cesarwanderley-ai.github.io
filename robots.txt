@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cesarwanderley.com.br/sitemap.xml
