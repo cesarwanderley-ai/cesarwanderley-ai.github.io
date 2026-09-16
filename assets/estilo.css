@@ -250,3 +250,6 @@ svg.linha{fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;st
 .secao-cab + .sub-cab{margin-top:0}
 .instituicao{justify-content:center;gap:14px}
 .instituicoes.eventos .instituicao{background:var(--papel)}
+.ano.rotulo{grid-template-columns:170px 1fr}
+.ano.rotulo > h3{font-size:34px}
+@media (max-width:640px){.ano.rotulo{grid-template-columns:1fr}.ano.rotulo > h3{font-size:30px}}
