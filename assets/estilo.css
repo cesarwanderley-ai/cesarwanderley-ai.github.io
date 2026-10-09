@@ -261,8 +261,8 @@ svg.linha{fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;st
 .lancamento.invertido{grid-template-columns:1.18fr .82fr}
 .lancamento.invertido .lanc-midia{order:2}
 .lancamento.invertido .lanc-txt{order:1}
-.lanc-midia{position:relative;justify-self:center;width:min(100%,250px)}
-.lanc-capa{display:block;width:100%;aspect-ratio:2/3;object-fit:cover;border-radius:2px 6px 6px 2px;background:var(--papel-2);box-shadow:1px 1px 0 rgba(0,0,0,.2),10px 16px 32px -12px rgba(28,35,32,.6)}
+.lanc-midia{position:relative;justify-self:center;width:min(100%,210px)}
+.lanc-capa{display:block;width:100%;height:auto;border-radius:2px 6px 6px 2px;background:var(--papel-2);box-shadow:1px 1px 0 rgba(0,0,0,.2),10px 16px 32px -12px rgba(28,35,32,.6)}
 .lanc-foto{position:absolute;right:-24px;bottom:-20px;width:104px;height:104px;border-radius:50%;overflow:hidden;border:4px solid var(--branco);box-shadow:0 16px 32px -18px rgba(28,35,32,.75)}
 .lanc-foto::after{content:"";position:absolute;inset:-7px;border:1px solid var(--salvia);border-radius:50%}
 .lanc-foto img{width:100%;height:100%;object-fit:cover}
